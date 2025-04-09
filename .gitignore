@@ -1,0 +1,43 @@
+# Environment variables
+/backend/.env
+/frontend/.env
+
+# Node modules
+/backend/node_modules/
+/frontend/node_modules/
+/node_modules/
+
+# Dependency lock files (optional, include if you want flexibility)
+/backend/package-lock.json
+/frontend/package-lock.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build artifacts
+/backend/dist/
+/frontend/dist/
+/frontend/dist-ssr/
+/dist/
+
+# Local uploads (for backend images)
+/backend/uploads/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local dev files
+*.local
